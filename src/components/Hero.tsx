@@ -124,44 +124,23 @@ export default function Hero() {
           </div>
 
           {/* PHOTO — second in DOM (mobile: below text; desktop: 45% right) */}
-          <div className="relative w-full md:w-[45%] h-[60vw] md:h-auto flex-shrink-0">
-            {/* Photo frame */}
+          <div className="relative w-full md:w-[45%] flex items-center justify-center px-6 pb-12 md:px-0 md:pb-0">
             <div
-              className="absolute inset-4 md:inset-0 overflow-hidden"
+              className="relative w-full max-w-[300px] md:max-w-[420px] overflow-hidden md:-rotate-2"
               style={{
-                rotate: '-2deg',
-                boxShadow: '0 0 0 1px #F5EDE4, 0 24px 80px rgba(0,0,0,0.5)',
-                transformOrigin: 'center center',
+                boxShadow: '0 24px 80px rgba(0,0,0,0.5)',
+                borderRadius: '4px',
               }}
             >
               <img
                 src="/images/hero.jpg"
                 alt="Florencia Martins de Souza — Flora, terapeuta oriental"
-                className="w-full h-full object-cover object-center"
-                onError={(e) => {
-                  const target = e.currentTarget
-                  target.style.display = 'none'
-                  const parent = target.parentElement
-                  if (parent) {
-                    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
-                    svg.setAttribute('viewBox', '0 0 400 560')
-                    svg.style.cssText = 'width:100%;height:100%;'
-                    svg.innerHTML = `
-                      <rect width="400" height="560" fill="#2A1020"/>
-                      <circle cx="200" cy="200" r="100" fill="#4A1530"/>
-                      <rect x="80" y="320" width="240" height="200" rx="8" fill="#4A1530"/>
-                      <text x="200" y="490" text-anchor="middle" fill="#6B1A38" font-size="14" font-family="serif">Flora</text>
-                      <text x="200" y="512" text-anchor="middle" fill="#D4691E" font-size="11" font-family="sans-serif">{URL_FOTO_HERO}</text>
-                    `
-                    parent.appendChild(svg)
-                  }
-                }}
+                className="w-full aspect-[3/4] object-cover object-top"
+                loading="eager"
               />
-              <PlaceholderPhoto />
+              {/* Bottom gradient */}
+              <div className="absolute inset-0 bg-gradient-to-t from-dark/60 to-transparent pointer-events-none" />
             </div>
-
-            {/* Gradient overlay bottom on mobile */}
-            <div className="absolute bottom-0 left-0 right-0 h-24 md:hidden bg-gradient-to-t from-dark to-transparent" />
           </div>
         </div>
 
