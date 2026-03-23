@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 import Hero from './components/Hero'
 import PainPoints from './components/PainPoints'
-import VideoSection from './components/VideoSection'
+// VideoSection removido — cliente não terá vídeo
 import Method from './components/Method'
 import About from './components/About'
 import HowItWorks from './components/HowItWorks'
@@ -45,7 +45,7 @@ function App() {
     <main className="overflow-x-hidden">
       <Hero />
       <PainPoints />
-      <VideoSection />
+      {/* VideoSection removido — cliente não terá vídeo */}
       <Method />
       <About />
       <HowItWorks />
