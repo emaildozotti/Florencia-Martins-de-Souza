@@ -12,7 +12,7 @@ const COPY = {
   paragraphs: [
     'Por anos, busquei as vias tradicionais para resolver meus próprios conflitos. Sentei em consultórios, falei sobre o que sentia e esperei. A resposta era sempre o mesmo silêncio. A mesma lentidão. A frustração de quem quer sair da dor e só encontra paciência sem direção.',
     'Meu ponto de virada foi descobrir que o inconsciente registra 400% da realidade. Não são só fatos. São sons, cheiros, temperaturas, cores. E é nessa camada que mora a dor que nenhuma conversa resolve.',
-    'Hoje, conduzo sessões de reprocessamento terapêutico em 4 fases. Não peço pra você falar sobre a dor por anos. Acesso o registro inconsciente e limpo. Cada paciente que sai da estagnação confirma que o caminho é por aqui.',
+    'Hoje, conduzo sessões de Terapia de Reprocessamento Generativo (TRG) em 5 fases. Não peço pra você falar sobre a dor por anos. Acesso o registro inconsciente e limpo. Cada paciente que sai da estagnação confirma que o caminho é por aqui.',
   ],
   transition: 'Veja como funciona na prática.',
   ctaText: 'Quero agendar minha sessão',

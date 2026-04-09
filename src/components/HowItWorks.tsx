@@ -6,15 +6,15 @@ import { SITE } from '../site.config'
 // ════════════════════════════════════════════════════════════════════
 const COPY = {
   eyebrow: 'processo',
-  heading: 'Como funciona o reprocessamento',
+  heading: 'Como funciona a TRG',
   steps: [
     {
       title: 'Conversa inicial gratuita',
       body: 'Eu ouço você, entendo sua história e identifico os pontos de estagnação no seu inconsciente. Sem compromisso. Sem julgamento. Você sai sabendo exatamente o que te trava.',
     },
     {
-      title: 'Sessões de reprocessamento',
-      body: 'Eu conduzo você pelas fases do reprocessamento. Começamos pela limpeza de terreno, que resolve até 80% das queixas. Depois, avançamos para o sensorial e o temático, sempre no seu ritmo.',
+      title: 'Sessões de TRG',
+      body: 'Eu conduzo você pelas 5 fases do Reprocessamento Generativo. Começamos pela limpeza de terreno, que resolve até 80% das queixas. Depois, avançamos para o somático, temático, futuro e potencialização, sempre no seu ritmo.',
     },
     {
       title: 'Você recupera a autonomia',

@@ -5,7 +5,7 @@ import { FadeIn } from './FadeIn'
 // ════════════════════════════════════════════════════════════════════
 const COPY = {
   eyebrow: 'abordagem',
-  heading: 'Reprocessamento em 4 Fases',
+  heading: 'Terapia de Reprocessamento Generativo em 5 Fases',
   intro: 'Meu método parte de uma premissa simples: seu inconsciente registra 400% da realidade. Sons, cheiros, temperaturas, cores. A fala alcança só uma parte. Eu acesso o resto.',
   pillars: [
     {
@@ -14,13 +14,23 @@ const COPY = {
       expanded: false,
     },
     {
-      title: 'Acesso Sensorial (Fases Somática e Temática)',
-      body: 'Depois do terreno limpo, acesso o que ficou gravado no corpo e nos padrões de repetição. Cheiros, temperaturas, sensações que disparam crises, tudo isso pode ser reprocessado. Não revivemos a dor. Limpamos o registro dela.',
+      title: 'Acesso Corporal (Fase Somática)',
+      body: 'Depois do terreno limpo, acesso o que ficou gravado no corpo. Cheiros, temperaturas, sensações que disparam crises. Não revivemos a dor. Limpamos o registro dela.',
+      expanded: false,
+    },
+    {
+      title: 'Padrões de Repetição (Fase Temática)',
+      body: 'Aqui trato os temas que se repetem na sua vida. Relacionamentos, medos, comportamentos que voltam mesmo depois de você jurar que mudou. Identifico o registro e limpo na raiz.',
       expanded: true,
     },
     {
       title: 'Reprogramação (Fase Futuro)',
-      body: 'Na última fase, aproveito a atemporalidade do inconsciente para reprogramar comportamentos. Seu inconsciente não diferencia passado de futuro. Usamos isso a seu favor.',
+      body: 'Aproveito a atemporalidade do inconsciente para reprogramar comportamentos. Seu inconsciente não diferencia passado de futuro. Usamos isso a seu favor.',
+      expanded: false,
+    },
+    {
+      title: 'Potencialização',
+      body: 'A fase final consolida tudo que foi limpo e reprogramado. Fortaleço os novos registros para que as mudanças se sustentem e você viva com autonomia sobre a própria vida.',
       expanded: false,
     },
   ],

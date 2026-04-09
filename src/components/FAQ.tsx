@@ -10,8 +10,8 @@ const COPY = {
   heading: 'Perguntas frequentes',
   faqs: [
     {
-      q: 'O que é reprocessamento terapêutico?',
-      a: 'É um método que acessa os registros sensoriais do inconsciente, onde ficam gravados sons, cheiros, temperaturas e cores que a fala não alcança. Eu trabalho em 4 fases para limpar esses registros na raiz, começando pela fase cronológica que resolve até 80% das queixas iniciais.',
+      q: 'O que é a Terapia de Reprocessamento Generativo (TRG)?',
+      a: 'É um método que acessa os registros sensoriais do inconsciente, onde ficam gravados sons, cheiros, temperaturas e cores que a fala não alcança. Eu trabalho em 5 fases para limpar esses registros na raiz: Cronológica, Somática, Temática, Futuro e Potencialização. A fase cronológica sozinha resolve até 80% das queixas iniciais.',
     },
     {
       q: 'Preciso parar meu remédio para fazer reprocessamento?',

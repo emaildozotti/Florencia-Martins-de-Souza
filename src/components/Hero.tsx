@@ -6,10 +6,10 @@ import { SITE } from '../site.config'
 // COPY — SUBSTITUIR POR CLIENTE (lp-copy.md → Bloco 1 Hero)
 // ════════════════════════════════════════════════════════════════════
 const COPY = {
-  callout: 'REPROCESSAMENTO TERAPÊUTICO',
+  callout: 'TERAPIA DE REPROCESSAMENTO GENERATIVO (TRG)',
   h1: 'Sua dor não é frescura.',
   h1Em: 'E não se resolve só falando.',
-  subtitle: 'Reprocessamento terapêutico que acessa o que nenhuma conversa alcança, para libertar quem a vida estagnou.',
+  subtitle: 'Terapia de Reprocessamento Generativo que acessa o que nenhuma conversa alcança, para libertar quem a vida estagnou.',
   ctaPrimary: 'Quero agendar minha sessão',
   ctaSecondary: 'ou entenda como funciona',
 }

@@ -7,8 +7,8 @@ export const SITE = {
   nomeCompleto: 'Florência Martins de Souza',
   nomeCurto: 'Florência Martins',
   iniciais: 'FM',
-  especialidadeCurta: 'Reprocessamento Inconsciente',
-  credenciais: 'Terapeuta Especialista em Reprocessamento Inconsciente e Saúde Emocional',
+  especialidadeCurta: 'Terapia de Reprocessamento Generativo (TRG)',
+  credenciais: 'Terapeuta Especialista em Reprocessamento Generativo (TRG)',
   crp: '',
   horario: 'Segunda a Sexta, 08h às 18h',
   disclaimer:
